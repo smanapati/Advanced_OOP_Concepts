@@ -1,36 +1,5 @@
 type: edu
 files:
-- name: src/Task.java
-  visible: true
-  text: |-
-    public class Task {
-        public static void main(String[] args){
-            Bag<Integer> numbers = new Bag<>();
-            Bag<BingoChip> bingo = new Bag<>();
-            try {
-                numbers.add(1);
-                numbers.add(2);
-                numbers.add(2);
-                numbers.add(1,0.5);
-                numbers.add(2,0.8);
-                System.out.println("Drawing 10 times, mostly twos");
-                System.out.println(numbers.drawMany((10)));
-
-                bingo.add(new BingoChip<String,Integer>("N",5));
-                bingo.add(new BingoChip<String,Integer>("I",73));
-                bingo.add(new BingoChip<String,String>("N","Center"));
-                bingo.add(new BingoChip<String,Integer>("B",12));
-
-                System.out.println("Draw a bingo chip");
-                System.out.println(bingo.drawOne());
-            }catch(BagException e){
-                e.printStackTrace();
-            }
-
-        }
-
-    }
-  learner_created: false
 - name: test/Tests.java
   visible: false
   text: |-
@@ -110,21 +79,60 @@ files:
 
     }
   learner_created: false
+- name: src/BagException.java
+  visible: true
+  text: |
+    public class BagException extends Exception{
+        public BagException(String msg){
+            super(msg);
+        }
+    }
+  learner_created: false
+- name: src/BingoChip.java
+  visible: true
+  placeholders:
+  - offset: 471
+    length: 0
+    placeholder_text: "/* TODO \nImplement this class.\nUse the instructions and check\
+      \ how it is used in Task.java*/"
+    initial_state:
+      length: 91
+      offset: 22
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: |2
+       <C,R>{
+          private C column;
+          private R row;
+
+          public BingoChip(C col, R row){
+              this.column = col;
+              this.row = row;
+          }
+
+          public String toString(){
+              return "Chip:"+column.toString()+"-"+row.toString();
+          }
+      }
+  text: "public class BingoChip/* TODO \nImplement this class.\nUse the instructions\
+    \ and check how it is used in Task.java*/\n\n"
+  learner_created: false
 - name: src/Bag.java
   visible: true
   placeholders:
-  - offset: 103
-    length: 42
+  - offset: 0
+    length: 1850
     placeholder_text: "/* TODO \nInitialize the objects variable*/"
     initial_state:
       length: 42
       offset: 103
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: objects = new ArrayList<>();
-  - offset: 156
-    length: 171
+  - offset: 0
+    length: 1850
     placeholder_text: "/* TODO \ncode the add method described. It should be public\
       \ and not \nreturn anything. Just take in a parameter and  throw an \nexception.\
       \ Read the documentation for this.*/"
@@ -132,41 +140,41 @@ files:
       length: 171
       offset: 156
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       public void add(T object) throws BagException{
               if(object==null)
                   throw new BagException("Nulls are not allowed");
               objects.add(object);
           }
-  - offset: 330
-    length: 140
+  - offset: 0
+    length: 1850
     placeholder_text: "/* TODO \nCode the drawOne method here. It should not take\
       \ any\nparameters. It should return a generic object. More on the\ntask description.*/"
     initial_state:
       length: 140
       offset: 330
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
          public T drawOne(){
               int idx = (int)Math.round(Math.random()*(objects.size()-1));
               return objects.get(idx);
           }
-  - offset: 483
-    length: 17
+  - offset: 0
+    length: 1850
     placeholder_text: /* return type?*/
     initial_state:
       length: 17
       offset: 483
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: ArrayList<T>
-  - offset: 524
-    length: 195
+  - offset: 0
+    length: 1850
     placeholder_text: "/* TODO\nhowMany is the number of elements to draw. \nCreate\
       \ an ArrayList of the generic type and \"drawOne\" as\nmany times as you need,\
       \ putting the element drawn in the ArrayList.\nThen return it. */"
@@ -174,23 +182,23 @@ files:
       length: 195
       offset: 524
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
               ArrayList<T> result = new ArrayList<>(howMany);
               for(int i=0;i<howMany;i++)
                   result.add(this.drawOne());
               return result;
-  - offset: 799
-    length: 88
+  - offset: 0
+    length: 1850
     placeholder_text: "/* TODO \nCheck that the probability is between 0 and 1. Otherwise\n\
       throw an exception. */"
     initial_state:
       length: 88
       offset: 799
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |
       if (prob>1 || prob<0)
                   throw new BagException("Probability has to be between 0 and 1");
@@ -210,44 +218,45 @@ files:
     \        for(int i=0;i<tot;i++){\n            System.out.println(\"Adding \"+i);\n\
     \            objects.add(element);\n        }\n    }\n}\n"
   learner_created: false
-- name: src/BagException.java
+- name: src/Generics/src/Task.java
   visible: true
-  text: |
-    public class BagException extends Exception{
-        public BagException(String msg){
-            super(msg);
+  text: |-
+    public class Task {
+        public static void main(String[] args){
+            Bag<Integer> numbers = new Bag<>();
+            Bag<BingoChip> bingo = new Bag<>();
+            try {
+                numbers.add(1);
+                numbers.add(2);
+                numbers.add(2);
+                numbers.add(1,0.5);
+                numbers.add(2,0.8);
+                System.out.println("Drawing 10 times, mostly twos");
+                System.out.println(numbers.drawMany((10)));
+
+                bingo.add(new BingoChip<String,Integer>("N",5));
+                bingo.add(new BingoChip<String,Integer>("I",73));
+                bingo.add(new BingoChip<String,String>("N","Center"));
+                bingo.add(new BingoChip<String,Integer>("B",12));
+
+                System.out.println("Draw a bingo chip");
+                System.out.println(bingo.drawOne());
+            }catch(BagException e){
+                e.printStackTrace();
+            }
+
         }
+
     }
   learner_created: false
-- name: src/BingoChip.java
+- name: src/Task.java
   visible: true
-  placeholders:
-  - offset: 22
-    length: 91
-    placeholder_text: "/* TODO \nImplement this class.\nUse the instructions and check\
-      \ how it is used in Task.java*/"
-    initial_state:
-      length: 91
-      offset: 22
-    initialized_from_dependency: false
-    selected: false
-    status: Unchecked
-    encrypted_possible_answer: |2
-       <C,R>{
-          private C column;
-          private R row;
-
-          public BingoChip(C col, R row){
-              this.column = col;
-              this.row = row;
-          }
-
-          public String toString(){
-              return "Chip:"+column.toString()+"-"+row.toString();
-          }
-      }
-  text: "public class BingoChip/* TODO \nImplement this class.\nUse the instructions\
-    \ and check how it is used in Task.java*/\n\n"
-  learner_created: false
-status: Unchecked
+  learner_created: true
+- name: src/Generics1/src/Task1.java
+  visible: true
+  learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 01 Mar 2022 04:59:08 UTC
 record: -1

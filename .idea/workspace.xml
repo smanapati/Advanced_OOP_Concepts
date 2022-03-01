@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49fabd4a-8b1a-4d92-982b-a39467f66ef3" name="Changes" comment="Homework submission." />
+    <list default="true" id="49fabd4a-8b1a-4d92-982b-a39467f66ef3" name="Changes" comment="Homework submission 3.">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenericsAndCollections/Collections1/src/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsAndCollections/Collections1/src/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenericsAndCollections/Collections1/src/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsAndCollections/Collections1/src/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenericsAndCollections/Collections1/src/DeckIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsAndCollections/Collections1/src/DeckIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenericsAndCollections/Collections1/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsAndCollections/Collections1/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenericsAndCollections/Collections1/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsAndCollections/Collections1/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenericsAndCollections/Collections2/src/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsAndCollections/Collections2/src/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenericsAndCollections/Collections2/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsAndCollections/Collections2/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenericsAndCollections/Collections2/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsAndCollections/Collections2/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenericsAndCollections/Generics/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsAndCollections/Generics/task-info.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +32,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,8 +56,25 @@
     <property name="Edu.IsLocalCourse" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/GenericsAndCollections/Generics/src" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Advanced_OOP_Concepts-master/Advanced_OOP_Concepts-master" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.inlinked.gradle.project.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task" />
+      <module name="Advanced_OOP_Concepts2.GenericsAndCollections-Generics.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Task" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -50,22 +92,93 @@
       <option name="project" value="LOCAL" />
       <updated>1644647489067</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Homework submission.">
+      <created>1644647595285</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644647595285</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Homework submission 3.">
+      <created>1646108877402</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646108877402</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="599d78a1-00f5-43e3-b047-a28aca3fd769">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/shobh/IdeaProjects/Advanced OOP Concepts2/GenericsAndCollections/Generics/src" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+        <entry key="d6203be9-4b58-4c5c-a996-f3d58bf9dd3c">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/shobh/IdeaProjects/Advanced OOP Concepts2/GenericsAndCollections" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="599d78a1-00f5-43e3-b047-a28aca3fd769" value="TOOL_WINDOW" />
+        <entry key="d6203be9-4b58-4c5c-a996-f3d58bf9dd3c" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework submission." />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework submission." />
+    <MESSAGE value="Homework submission 3." />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework submission 3." />
   </component>
 </project>
