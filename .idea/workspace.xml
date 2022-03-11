@@ -13,15 +13,26 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenericsAndCollections/Collections1/src/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsAndCollections/Collections1/src/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenericsAndCollections/Collections1/src/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsAndCollections/Collections1/src/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenericsAndCollections/Collections1/src/DeckIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsAndCollections/Collections1/src/DeckIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenericsAndCollections/Collections1/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsAndCollections/Collections1/src/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenericsAndCollections/Collections1/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsAndCollections/Collections1/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenericsAndCollections/Collections2/src/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsAndCollections/Collections2/src/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenericsAndCollections/Collections2/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsAndCollections/Collections2/src/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenericsAndCollections/Collections2/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsAndCollections/Collections2/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenericsAndCollections/Generics/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsAndCollections/Generics/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilesAndJson/CSVFiles/src/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/FilesAndJson/CSVFiles/src/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilesAndJson/CSVFiles/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/FilesAndJson/CSVFiles/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilesAndJson/CSVFiles/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/FilesAndJson/CSVFiles/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilesAndJson/CSVFiles/test/iris-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/FilesAndJson/CSVFiles/test/iris-data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilesAndJson/JSONFiles/src/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/FilesAndJson/JSONFiles/src/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilesAndJson/JSONFiles/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/FilesAndJson/JSONFiles/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilesAndJson/JSONFiles/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/FilesAndJson/JSONFiles/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilesAndJson/REST_APIs/src/TVShowsDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/FilesAndJson/REST_APIs/src/TVShowsDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilesAndJson/REST_APIs/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/FilesAndJson/REST_APIs/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FilesAndJson/REST_APIs/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FilesAndJson/REST_APIs/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreadsAndConcurrency/RacingCars/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThreadsAndConcurrency/RacingCars/src/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreadsAndConcurrency/RacingCars/src/Racer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThreadsAndConcurrency/RacingCars/src/Racer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreadsAndConcurrency/RacingCars/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThreadsAndConcurrency/RacingCars/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreadsAndConcurrency/RacingCars/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ThreadsAndConcurrency/RacingCars/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreadsAndConcurrency/RacingCars2/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThreadsAndConcurrency/RacingCars2/src/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreadsAndConcurrency/RacingCars2/src/Racer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThreadsAndConcurrency/RacingCars2/src/Racer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreadsAndConcurrency/RacingCars2/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThreadsAndConcurrency/RacingCars2/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreadsAndConcurrency/RacingCars2/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ThreadsAndConcurrency/RacingCars2/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreadsAndConcurrency/WebPageEditor/src/WebPageEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThreadsAndConcurrency/WebPageEditor/src/WebPageEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreadsAndConcurrency/WebPageEditor/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ThreadsAndConcurrency/WebPageEditor/task-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +64,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Edu.IsLocalCourse" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -106,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646108877402</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Homework submission 3.">
+      <created>1646110813148</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1646110813148</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
