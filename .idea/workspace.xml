@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49fabd4a-8b1a-4d92-982b-a39467f66ef3" name="Changes" comment="Homework submission 3.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="49fabd4a-8b1a-4d92-982b-a39467f66ef3" name="Changes" comment="Homework submission Json.">
       <change beforePath="$PROJECT_DIR$/ThreadsAndConcurrency/RacingCars/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThreadsAndConcurrency/RacingCars/src/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ThreadsAndConcurrency/RacingCars/src/Racer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThreadsAndConcurrency/RacingCars/src/Racer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ThreadsAndConcurrency/RacingCars/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThreadsAndConcurrency/RacingCars/src/Task.java" afterDir="false" />
@@ -114,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647037313846</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Homework submission Json.">
+      <created>1647039014379</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1647039014379</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +193,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework submission." />
     <MESSAGE value="Homework submission 3." />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework submission 3." />
+    <MESSAGE value="Homework submission Json." />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework submission Json." />
   </component>
 </project>
