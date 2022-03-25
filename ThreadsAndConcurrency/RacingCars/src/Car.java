@@ -12,8 +12,11 @@ public class Car {
     }
 
     public void move(double miles){
-        /* TODO 
-move should subtract  'miles' from the miles left to travel and add 'miles' to the odometer. The miles to travel cannot be less than zero. */
+        /* TODO move should subtract  'miles' from the miles left to travel
+        and add 'miles' to the odometer. The miles to travel cannot be less than zero. */
+        double distance = Math.min(this.miles, miles);
+        this.miles -= distance;
+        this.odometer += distance;
     }
 
     public void charge(){
