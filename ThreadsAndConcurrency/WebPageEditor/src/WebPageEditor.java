@@ -24,7 +24,7 @@ public class WebPageEditor {
         // use a scanner to read every line the user writes
         Scanner kbd  = new Scanner(System.in);
         boolean finish = false;
-        while(!finish){
+        while(!finish && kbd.hasNextLine()){
             String text = kbd.nextLine();
             if(text.equals("quit"))
                 finish=true;

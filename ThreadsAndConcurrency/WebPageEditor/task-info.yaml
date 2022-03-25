@@ -159,5 +159,11 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+- name: deleteme.html
+  visible: true
+  learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 11 Mar 2022 22:10:17 UTC
 record: -1
