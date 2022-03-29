@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-25T19:08:57" hostname="LAPTOP-34QU74CM" time="1.034">
+  <properties/>
+  <testcase name="testExecutors" classname="Tests" time="1.034"/>
+  <system-out><![CDATA[Charging
+Charging
+Charging
+Charging
+Charging
+Charging
+Charging
+Charging
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
